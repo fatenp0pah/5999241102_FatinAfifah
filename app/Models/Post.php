@@ -3,39 +3,13 @@
 
 namespace App\Models;
 
-use Illuminate\Support\Arr;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
 
+class Post extends Model
 
-class Post
-{
-public static function all()
-{
-    return [
-        [
-            'id'=> 1,
-            'slug' => 'judul-artikel-1',
-            'title' => 'Judul artikel 1',
-            'author' => 'Sandhika Galih',
-            'body' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa nulla exercitationem incidunt, modi, magnam vero aperiam minus ratione obcaecati perspiciatis at sed quae dicta facilis sint? Totam nihil mollitia minus.'
-        ],
-        [
-            'id'=> 2,
-            'slug' => 'judul-artikel-2',
-            'title' => 'Judul artikel 2',
-            'author' => 'Sandhika Galih',
-            'body' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa nulla exercitationem incidunt, modi, magnam vero aperiam minus ratione obcaecati perspiciatis at sed quae dicta facilis sint? Totam nihil mollitia minus.'
-        ]
-        ];
-}  
-
-public static function find($slug): array
-{
-   $post = Arr::first(static::all(), fn ($post) => $post['slug'] == $slug);
-
-   if(! $post){
-    abort(404);
-   }
-
-   return $post;
-}
+{   
+    use HasFactory;
+    // protected $table = 'blog_posts';
+    // protected $guarded = ['title','author','slug','body']; blacklisting fields from being mass-assigned
 }
