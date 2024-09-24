@@ -67,6 +67,19 @@ My Laravel Project consists of 4 webpages:
   <img width="959" alt="Screenshot 2024-09-24 222829" src="https://github.com/user-attachments/assets/8a7a8208-8a64-4432-808a-4a41bd9daf2f">
 
 </p>
+
+<p>
+    <li>
+    Updated Blog Page (4) 
+    </li> 
+    <li>
+    Added Eloquent Relationship
+    </li>
+    </ul>
+<img width="952" alt="image" src="https://github.com/user-attachments/assets/26876f35-8f2f-4ab0-8554-4c8408f4daac">
+
+
+</p>
    
 
 
