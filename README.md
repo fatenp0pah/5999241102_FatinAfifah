@@ -49,7 +49,7 @@ My Laravel Project consists of 4 webpages:
 
 <p>
     <li>
-    Updated Blog Page (3)
+    Updated Blog Page (3) Eloquent ORM
     </li> 
     </ul>
     <img width="960" alt="ss3" src="https://github.com/user-attachments/assets/bf810cb1-300d-4075-b0f9-efbc625d96da">
