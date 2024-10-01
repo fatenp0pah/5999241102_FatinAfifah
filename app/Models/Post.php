@@ -13,6 +13,8 @@ class Post extends Model
     use HasFactory;
     // protected $table = 'blog_posts';
     // protected $guarded = ['title','author','slug','body']; blacklisting fields from being mass-assigned
+    protected $fillable = ['title', 'author', 'slug', 'body'];
+    protected $with = ['author', 'category'];
     public function author(): BelongsTo
     {
         return $this->belongsTo(User::class);   
