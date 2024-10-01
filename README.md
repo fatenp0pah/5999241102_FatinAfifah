@@ -89,6 +89,17 @@ My Laravel Project consists of 4 webpages:
 <img width="816" alt="image" src="https://github.com/user-attachments/assets/c367d4d5-18e6-4571-9075-593e72f3bc80">
 
 </p>
+
+<p>
+    <li>
+    Added n+1 Problem
+    </li>
+    <li>
+    Installed laravel debugbar
+    </li>
+    </ul>
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/4b1ea2d2-00c0-4c07-b54d-a280ba696d27">
+</p>
    
 
 
