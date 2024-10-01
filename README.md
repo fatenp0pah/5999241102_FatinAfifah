@@ -80,6 +80,15 @@ My Laravel Project consists of 4 webpages:
 
 
 </p>
+
+<p>
+    <li>
+    Added Data Seeder
+    </li>
+    </ul>
+<img width="816" alt="image" src="https://github.com/user-attachments/assets/c367d4d5-18e6-4571-9075-593e72f3bc80">
+
+</p>
    
 
 
