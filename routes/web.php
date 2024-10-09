@@ -1,5 +1,4 @@
 <?php
-
 use App\Models\User;
 use App\Models\Post; 
 use App\Models\Category;
@@ -15,9 +14,11 @@ Route::get('/about', function () {
 });
 
 Route::get('/posts', function () {
-    // $posts = Post::with(['author', 'category'])->latest()->get();
-    $posts = Post::latest()->get();
-    return view('posts', ['title' => 'Blog', 'posts' => $posts]);
+   
+//    dump(request('search'));
+
+return view('posts', ['title' => 'Blog', 'posts' => Post::filter(request(['search',
+    'category', 'author']))->latest()->get()]);
 });
 
 Route::get('/posts/{post:slug}', function(Post $post) {
