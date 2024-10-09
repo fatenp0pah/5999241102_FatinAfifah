@@ -100,6 +100,21 @@ My Laravel Project consists of 4 webpages:
     </ul>
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/4b1ea2d2-00c0-4c07-b54d-a280ba696d27">
 </p>
+<p>
+    <li>
+    Added Searching feature
+    </li>
+    <li>
+    Added Pagination Feature
+    </li>
+     <li>
+    Use 
+    </li>
+    </ul>
+
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/c03e9ee2-b06a-4601-8e7e-6ed9d0c2b0aa">
+
+</p>
    
 
 
