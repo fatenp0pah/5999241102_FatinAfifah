@@ -18,7 +18,7 @@ Route::get('/posts', function () {
 //    dump(request('search'));
 
 return view('posts', ['title' => 'Blog', 'posts' => Post::filter(request(['search',
-    'category', 'author']))->latest()->get()]);
+    'category', 'author']))->latest()->simplePaginate(9)]);
 });
 
 Route::get('/posts/{post:slug}', function(Post $post) {
