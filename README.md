@@ -107,9 +107,6 @@ My Laravel Project consists of 4 webpages:
     <li>
     Added Pagination Feature
     </li>
-     <li>
-    Use 
-    </li>
     </ul>
 
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/c03e9ee2-b06a-4601-8e7e-6ed9d0c2b0aa">
